@@ -1,0 +1,10 @@
+p{
+	font-style: italic;
+	color: red;
+}
+a:hover{
+	font-size: 15px;
+}
+body{
+	text-align: center;
+}
