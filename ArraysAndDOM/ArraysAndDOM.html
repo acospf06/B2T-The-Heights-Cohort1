@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+
+<body>
+
+	<p id=input>  </p>
+
+
+<script type="text/javascript">
+
+//creating fruits array	
+var fruits =['apple', 'oranage', 'kiwi']
+
+//prompt asking for more fruit
+var input = prompt  ("Add more fruit");
+
+//adding prompt info into array
+fruits.push(input);
+
+//remvoing first element in array
+fruits.shift();
+
+//sorting the array
+fruits.sort();
+
+// adding '" with " between each element to seperate them
+//fruits.join(' with ')
+
+//displaying the array
+document.getElementById('input').innerHTML = (fruits.join(' with '))
+
+</script>
+
+</body>
+</html>
