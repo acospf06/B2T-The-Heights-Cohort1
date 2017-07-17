@@ -8,8 +8,10 @@
 
 <script type="text/javascript">
 	
+	//adding variable for date
 var date = new Date();
 		switch(date.getDay()){
+			//returns Days depending on case  0 - 6
 			case 0: 
 			document.getElementById("wkdy").innerHTML = ("Today is Sunday");
 				break;
