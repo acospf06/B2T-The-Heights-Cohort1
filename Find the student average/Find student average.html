@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+	
+//grades
+var grade1 = 80;
+var grade2 = 77;
+var grade3 = 88;
+var grade4 = 95;
+var grade5 = 68;
+
+// calculate average of grades
+var average = (grade1 + grade2 + grade3 + grade4 + grade5) / 5;
+console.log("The Student's Average is = " + average)
+
+// returns letter grade depending on what number grade students gets
+
+
+if(average < 60){
+	// if average is less than 60 = F
+	console.log("The Student's Grade is an F for the Class");
+}else{
+	if(average > 60 && average <= 69){
+		// if average is grater than 60 and less than or equal to 69 = d
+		console.log("The Student's Grade is a D for the Class");
+	} else if(average > 70 && average <= 79){
+		// if average is grater than 70 and less than or equal to 70 = c
+		console.log("The Student's Grade is a C for the Class");
+	} else if(average > 80 && average <= 89){
+		// if average is grater than 80 and less than or equal to 80 = B
+		console.log("The Student's Grade is a B for the Class");
+	} else {
+		//if everything else fails student has an A
+		console.log("The Student's Grade is an A for the Class");
+	}
+}
+
+
+</script>
+
+</body>
+</html>
