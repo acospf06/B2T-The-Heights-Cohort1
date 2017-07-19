@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+	
+		// list intergers 1 to 100
+		var index = 1;
+			while (index <= 100){
+				//checks to see if number is multple of 3 and 5 if so lable FizzBuzz
+				if (index %3 == 0 && index%5 ==0){
+					console.log(index + " FizzBuZZ");
+
+				} else if( index %3 == 0){
+					//Checks to see if number is multiple of 3 only
+					console.log(index + " Fizz");
+				} else if (index %5 == 0){
+					//checks to see if number is multiple of 5 only
+					console.log(index + " Buzz");
+				
+				} else {
+					//If number is not numpliple of 3 or 5 just list number 
+					console.log(index);
+				}
+
+				index ++;
+
+			}
+
+
+</script>
+
+
+</body>
+</html>
