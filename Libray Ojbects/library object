@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+	var library = [
+		{author: "Bill Gakes", title: "The Road Ahead", readingStatus: true},
+		{author: "Steve Jobs", title: "Walter Issacson", readingStatus: true},
+		{author: "Suzanne Collins", title: " The Final Book of The Hunger Games", readingStatus: false }
+	];
+
+	for (var i = 0; i < library.length; i++){
+		if(library[i].readingStatus == true ){
+			console.log("Already read " + " by " + library[i].author)
+		}
+		else{
+			console.log("You still need to read " + " by " + library[i].author)
+		}
+	}
+
+	</script>
+
+</body>
+</html>
