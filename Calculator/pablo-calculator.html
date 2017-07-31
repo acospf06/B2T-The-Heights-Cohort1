@@ -3,12 +3,15 @@
 	<head>
 		<title>Advan Calculator</title>
 		<style> 
+		/*formting of the Div
+		*/
 		#calculator-silo {
 			position: relative;
 			width: :300px;
 			border:10px solid black;
 			border-radius: 4px;
-			
+		/*formting of the Calc Buttons
+		*/
 		}
 		input[type=button]{
 			background: lightgray;
@@ -20,6 +23,8 @@
 			margin: 2%;
 			border-radius: 4px;
 		}
+		/*formting of the text box
+		*/
 		input[type=text]{
 			position: relative;
 			display: block;
@@ -41,6 +46,7 @@
 	</head>
 
 	<body>
+		
 		<div id="calculator-silo">
 			<form name="calculator">
 				<br>
@@ -50,7 +56,7 @@
 				<br>
 				<br>
 				<br>
-
+				<!-- Calc number and func button-->
 				<input type="button" value=" 1 " onclick="calculator.answer.value += '1'">
 				<input type="button" value=" 2 " onclick="calculator.answer.value += '2'">
 				<input type="button" value=" 3 " onclick="calculator.answer.value += '3'">
@@ -74,11 +80,8 @@
 				<input type="button" value=" . " onclick="calculator.answer.value += '.'">
 				<input type="button" value=" / " onclick="calculator.answer.value += '/'">
 				<br>
-
+				<!-- Equal button -->
 				<input type="button" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)" style="background: blue; width:95%;">
-
-
-
 
 			</form>
 		</div>
