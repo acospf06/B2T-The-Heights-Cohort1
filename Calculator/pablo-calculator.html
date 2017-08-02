@@ -3,14 +3,14 @@
 	<head>
 		<title>Advan Calculator</title>
 		<style> 
-		/*formting of the Div
+		/*formating of the Div
 		*/
 		#calculator-silo {
 			position: relative;
 			width: :300px;
 			border:10px solid black;
 			border-radius: 4px;
-		/*formting of the Calc Buttons
+		/*formating of the Calc Buttons
 		*/
 		}
 		input[type=button]{
@@ -23,7 +23,7 @@
 			margin: 2%;
 			border-radius: 4px;
 		}
-		/*formting of the text box
+		/*formating of the text box
 		*/
 		input[type=text]{
 			position: relative;
@@ -34,6 +34,8 @@
 			border:5px solid black;
 			background-image: url();
 		}
+		/*formating of img tag
+		*/
 		img {position: absolute;
 			left: 3%;
 			top: 105px;
@@ -56,25 +58,25 @@
 				<br>
 				<br>
 				<br>
-				<!-- Calc number and func button-->
+				<!-- Calc numbers 1 - 3  and + func button-->
 				<input type="button" value=" 1 " onclick="calculator.answer.value += '1'">
 				<input type="button" value=" 2 " onclick="calculator.answer.value += '2'">
 				<input type="button" value=" 3 " onclick="calculator.answer.value += '3'">
 				<input type="button" value=" + " onclick="calculator.answer.value += '+'">
 				<br>
-
+				<!-- Calc numbers 4 - 6  and - func button-->
 				<input type="button" value=" 4 " onclick="calculator.answer.value += '4'">
 				<input type="button" value=" 5 " onclick="calculator.answer.value += '5'">
 				<input type="button" value=" 6 " onclick="calculator.answer.value += '6'">
 				<input type="button" value=" - " onclick="calculator.answer.value += '-'">
 				<br>
-
+				<!-- Calc numbers 7 - 9  and x func button-->
 				<input type="button" value=" 7 " onclick="calculator.answer.value += '7'">
 				<input type="button" value=" 8 " onclick="calculator.answer.value += '8'">
 				<input type="button" value=" 9 " onclick="calculator.answer.value += '9'">
 				<input type="button" value=" x " onclick="calculator.answer.value += '*'">
 				<br>
-
+				<!-- Calc number 0, . , clear and / func button-->
 				<input type="button" value=" c " onclick="calculator.answer.value = ''" style="color:red">
 				<input type="button" value=" 0 " onclick="calculator.answer.value += '0'">
 				<input type="button" value=" . " onclick="calculator.answer.value += '.'">
